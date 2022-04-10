@@ -14,17 +14,24 @@
     <!-- link your styles -->
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <title>Where work happens | Slack</title>
+    
   </head>
-
   <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <nav>
-      <img src="./images/slack-logo.png" alt="slack_logo" />
-      <ul>
-        <li>Why Slack?</li>
-        <li>Pricing</li>
-        <li>About Us</li>
-        <li>Your Workspaces</li>
-      </ul>
+      <img id="head-logo" src="./images/slack-logo.png" alt="slack_logo" />
+      <div class="hamburger-menu">
+        <input id="menu-toggle" type="checkbox"/>
+        <label class="menu-btn" for="menu-toggle">
+          <span></span>
+        </label>
+        <ul class="menu-box">
+          <li><a class="menu-item" href="#">Why Slack</a></li>
+          <li><a class="menu-item" href="#">Pricing</a></li>
+          <li><a class="menu-item" href="#">About Us</a></li>
+          <li><a class="menu-item" href="#">our Workspaces</a></li>
+        </ul>
+      </div>
     </nav>
     <header>
       <img src="./images/home_talking.png" alt="home_work_happening" />
