@@ -8,7 +8,8 @@ nav grey: #5b5e6d;
 
 /*head logo*/
 #head-logo {
-    height: 70px;
+    height: 55px;
+    margin-left: 5%;
 }
 /*nav configuration*/
 nav {
@@ -41,7 +42,7 @@ nav {
 
 .menu-btn {
     position:fixed;
-    top:40px;
+    top:35px;
     left:310px;
     width: 26px;
     height:26px;
@@ -103,11 +104,12 @@ nav {
 /*Where work happens section*/
 .main-title {
     color: #2C303F;
+    margin-left: 5%;
 }
 
 .text {
     color:#5b5e6d;
-    font-size: 1em;
+    font-size: 1.05rem;
 }
 
 header > h1 {
@@ -116,7 +118,7 @@ header > h1 {
 }
 
 header > p {
-    padding: 0px 25px;
+    padding: 0px 5%;
 }
 
 header > p:last-child {
@@ -140,4 +142,79 @@ header > p:last-child {
     background-color: #192592;
     color:white;
     font-weight: 350;
+    border-radius: 5px;
 }
+
+/*end of header*/
+
+/*You're in good company section*/
+
+main > div:first-child {
+    background-color: #F4F3F4;
+}
+
+.head-image {
+    width: 90%;
+    margin-top: 30px;
+}
+
+.section-title {
+    text-align:center;
+    margin-top: 40px;
+}
+
+main > div > p {
+    text-align:center;
+    margin: 0 8% 15px 8%;
+}
+
+/*discover why button*/
+
+main > div > button {
+    font-size: 0.7rem;
+    width: 87%;
+    height: 2.5rem;
+    margin-left: 5%;
+    color:#192592;
+    font-weight: 690;
+    border-color:#192592;
+    border-radius: 5px;
+}
+
+/*logo definition*/
+
+#airbnb-logo {
+    height:2.5em;
+}
+
+#capital-one-logo {
+    height:3em;
+}
+
+#harvard-logo {
+    height:2.5em;
+}
+
+#los-angeles-time-logo {
+    height:2em;
+}
+
+#oracle-logo {
+    height:1.3em;
+}
+
+#ticketmaster-logo {
+    height:1.5em;
+}
+
+/*logo positioning*/
+
+#logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:45em;
+    justify-content: space-evenly;
+}
+
+
