@@ -365,7 +365,8 @@ footer > div:nth-child(2) > ul {
     }
 
     footer > div:first-child {
-        display:flex;        
+        display:flex;
+        justify-content: center;
     }
 
     footer > div > ul {
@@ -402,7 +403,7 @@ footer > div:nth-child(2) > ul {
 
 @media (min-width: 1200px) {
     #logo-section > img {
-        padding: 0 80px;
+        padding: 0 130px;
     }
 }
 
