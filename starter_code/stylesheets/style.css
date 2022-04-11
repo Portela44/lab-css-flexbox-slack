@@ -124,3 +124,20 @@ header > p:last-child {
 }
 
 /*form configuration*/
+#email-box {
+    font-size: 0.8rem;
+    width: 85%;
+    height: 2.5rem;
+    margin: 15px 0 10px 5%;
+}
+
+#get-started-button {
+    font-size: 0.7rem;
+    width: 87%;
+    height: 2.5rem;
+    margin-left: 5%;
+    margin-bottom: 0px;
+    background-color: #192592;
+    color:white;
+    font-weight: 350;
+}
