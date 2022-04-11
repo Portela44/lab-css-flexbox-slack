@@ -43,7 +43,7 @@
       </p>
       <form action="#" method="post">
         <input id="email-box" type="text" placeholder="Email address"/>
-        <input id="get-started-button" type="submit" value="GET STARTED">
+        <input class="get-started-button" type="submit" value="GET STARTED">
       </form>
       <p class="text">Already using Slack? <a href="#">Sign in</a></p>
     </header>
@@ -64,18 +64,21 @@
           <img id="oracle-logo" src="./images/oracle-logo.png" alt="" />
           <img id="ticketmaster-logo" src="./images/ticketmaster-logo.png" alt="" />
         </section>
-        </div>
+      </div>
       <div>
         <p>Try it for free</p>
-        <p>Already using Slack? <a href="">Sign in</a></p>
-        <button type="button" name="button">GET STARTED</button>
+        <p class="text">Already using Slack? <a href="">Sign in</a></p>
+        <form action="#" method="post">
+          <input id="email-box" type="text" placeholder="Email address"/>
+          <input class="get-started-button" type="submit" value="GET STARTED">
+        </form>
       </div>
     </main>
     <footer>
       <div>
         <img src="./images/iso-slack.png" alt="" />
         <ul>
-          <li>COMPANY</li>
+          <li class="head-list">COMPANY</li>
           <li>About Us</li>
           <li>Careers</li>
           <li>Blog</li>
@@ -83,7 +86,7 @@
           <li>Brand Guidelines</li>
         </ul>
         <ul>
-          <li>PRODUCT</li>
+          <li class="head-list">PRODUCT</li>
           <li>Why Slack?</li>
           <li>Enterprise</li>
           <li>Customer Stories</li>
@@ -91,7 +94,7 @@
           <li>Security</li>
         </ul>
         <ul>
-          <li>RESOURCES</li>
+          <li class="head-list">RESOURCES</li>
           <li>Download</li>
           <li>Help Center</li>
           <li>Guides</li>
@@ -100,7 +103,7 @@
           <li>API</li>
         </ul>
         <ul>
-          <li>EXTRAS</li>
+          <li class="head-list">EXTRAS</li>
           <li>Podcast</li>
           <li>Slack Shop</li>
           <li>Slack at Work</li>
@@ -109,17 +112,21 @@
       </div>
       <div>
         <ul>
-          <li>Status</li>
-          <li>Privacy & Terms</li>
-          <li>Contact Us</li>
+          <li class="head-list">Status</li>
+          <li class="head-list">Privacy & Terms</li>
+          <li class="head-list">Contact Us</li>
         </ul>
         <div>
-          <img src="./images/us-flag.png" alt="" />
-          <span>English (US)</span>
-          <i class="fas fa-chevron-down"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-youtube"></i>
+          <section id="language">
+            <img id="flag" src="./images/us-flag.png" alt="" />
+            <span class="head-list" class="text">English (US)</span>
+            <i class="fas fa-chevron-down"></i>
+          </section>
+          <section id="social">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-youtube"></i>
+          </section>
         </div>
       </div>
     </footer>

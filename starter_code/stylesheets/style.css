@@ -118,7 +118,7 @@ header > h1 {
 }
 
 header > p {
-    padding: 0px 5%;
+    padding: 0px 5% 20px;
 }
 
 header > p:last-child {
@@ -128,12 +128,13 @@ header > p:last-child {
 /*form configuration*/
 #email-box {
     font-size: 0.8rem;
-    width: 85%;
+    width: 80%;
     height: 2.5rem;
-    margin: 15px 0 10px 5%;
+    margin: 0 0 10px 5%;
+    padding-left: 5%;
 }
 
-#get-started-button {
+.get-started-button {
     font-size: 0.7rem;
     width: 87%;
     height: 2.5rem;
@@ -217,4 +218,71 @@ main > div > button {
     justify-content: space-evenly;
 }
 
+/*try it for free section*/
+
+main > div:last-child > p:first-child {
+    margin-top: 70px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/*footer*/
+
+footer > div > img:first-child {
+    height:120px;
+    padding:0 50% 0 0;
+}
+
+footer > div > ul {
+    list-style:none;
+    width:30%;
+}
+
+footer > div > ul > li:first-child , .head-list {
+    font-weight: 900;
+}
+
+footer > div > ul > li , #language > span {
+    color: #5b5e6d;
+    padding: 0.5em;
+    font-size:0.8em;
+}
+
+footer > div:first-child {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/*footer bottom menu*/
+
+footer > div:nth-child(2) {
+    background-color: #F4F3F4;
+}
+
+footer > div:nth-child(2) > ul {
+    display:flex;
+    flex-direction: row;
+    width:fit-content;
+    justify-content: center;
+    padding-top:10px;
+}
+
+#language > img , #social > i {
+    height:20px;
+}
+
+#language {
+    display:flex;
+    justify-content: center;
+}
+
+#social {
+    display:flex;
+    justify-content: center;
+}
+
+#social > i {
+    width:30px;
+    padding-top:20px
+}
 
